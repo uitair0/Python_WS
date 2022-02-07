@@ -9,5 +9,9 @@ btn1.pack()
 btn2 = Button(root, fg = "red", bg = "green", text = "button2")
 btn2.pack()
 
+img1 = PhotoImage(file="icon.png")
+
+btn3 = Button(root, image=img1)
+btn3.pack()
 
 root.mainloop()
